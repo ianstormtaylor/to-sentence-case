@@ -1,6 +1,6 @@
 # to-sentence-case
 
-  Convert a non-sentence-case string to a sentence-case string.
+  Convert a string to a sentence case.
 
 ## Installation
 
