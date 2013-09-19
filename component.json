@@ -2,11 +2,11 @@
   "name": "to-sentence-case",
   "repo": "ianstormtaylor/to-sentence-case",
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Convert a non-sentence-case string to a sentence-case string.",
   "keywords": ["sentence", "case", "sentencecase", "string"],
   "dependencies": {
-    "ianstormtaylor/to-space-case": "0.0.1"
+    "ianstormtaylor/to-no-case": "0.0.1"
   },
   "development": {
     "component/assert": "*"

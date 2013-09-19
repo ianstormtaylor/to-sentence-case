@@ -1,5 +1,5 @@
 
-var space = require('to-space-case');
+var clean = require('to-no-case');
 
 
 /**
@@ -18,7 +18,7 @@ module.exports = toSentenceCase;
 
 
 function toSentenceCase (string) {
-  return space(string).replace(/[a-z]/i, function (letter) {
+  return clean(string).replace(/[a-z]/i, function (letter) {
     return letter.toUpperCase();
   });
 }
