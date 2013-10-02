@@ -5,6 +5,7 @@
 ## Installation
 
     $ component install ianstormtaylor/to-sentence-case
+    $ npm install to-sentence-case
 
 ## Example
 
