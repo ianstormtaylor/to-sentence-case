@@ -14,9 +14,9 @@ $ npm install to-sentence-case
 ## Example
 
 ```js
-var toSentenceCase = require('to-sentence-case');
+var toSentenceCase = require('to-sentence-case')
 
-toSentenceCase('the catcher, in the rye.'); 
+toSentenceCase('the catcher, in the rye.') 
 // "The catcher, in the rye."
 ```
 
