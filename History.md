@@ -1,3 +1,11 @@
+
+1.0.0 - January 21, 2016
+------------------------
+* drop component support
+* cleanup readme
+* add travis ci
+* update coding style
+
 0.1.1 - October 1, 2013
 -----------------------
 * updated `to-no-case`

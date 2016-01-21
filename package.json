@@ -1,11 +1,19 @@
 {
   "name": "to-sentence-case",
+  "version": "1.0.0",
+  "description": "Convert a string to sentence case.",
   "repository": "git://github.com/ianstormtaylor/to-sentence-case.git",
   "license": "MIT",
-  "version": "0.1.1",
-  "description": "Convert a string to sentence case.",
-  "keywords": ["sentence", "case", "sentencecase", "string"],
   "dependencies": {
-    "to-no-case": "0.1.1"
-  }
+    "to-no-case": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  },
+  "keywords": [
+    "sentence",
+    "case",
+    "sentencecase",
+    "string"
+  ]
 }

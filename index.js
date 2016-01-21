@@ -1,13 +1,11 @@
 
-var clean = require('to-no-case');
-
+var clean = require('to-no-case')
 
 /**
- * Expose `toSentenceCase`.
+ * Export.
  */
 
-module.exports = toSentenceCase;
-
+module.exports = toSentenceCase
 
 /**
  * Convert a `string` to camel case.
@@ -16,9 +14,8 @@ module.exports = toSentenceCase;
  * @return {String}
  */
 
-
-function toSentenceCase (string) {
+function toSentenceCase(string) {
   return clean(string).replace(/[a-z]/i, function (letter) {
-    return letter.toUpperCase();
-  });
+    return letter.toUpperCase()
+  }).trim()
 }
